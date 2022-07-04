@@ -1,0 +1,357 @@
+body{
+	margin: 0 0 0 0;
+	background-image: url("../images/backgroundImage2.jpg");
+	background-size: 100% 100%;
+}
+.nav{
+	width: 100%;
+	padding-top: 1.5%;
+}
+.gallerynav{
+	width: 100%;
+	padding-top: 1.5%;
+	float: left;
+}
+.navButton {
+	margin-left: 5%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: brown;
+	text-shadow: 4px 4px 10px #000000;
+}
+
+.intro{
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-image: url("../images/backgroundImage1.jpg");
+	background-size: 100% 110%;
+	background-repeat: no-repeat;
+}
+.logo{
+	float: left;
+	padding-left: 6%;
+	box-sizing: border-box;
+	width: 69%;
+}
+.logoIcon{
+	width: 12%;
+	height: 12%;
+}
+.gallerylogoIcon{
+	width: 8%;
+	height: 8%;
+}
+.links{
+	float: left;
+	width: 29%;
+	padding-top: 1%;
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 1.9vw;
+}
+
+.name{
+	position: absolute;
+	right: 0;
+	margin: 30% 8% 0 0;
+}
+p#firstname{
+	margin: 0 0 0 0;
+	line-height: 0.3em;
+	font-family: "DIN condensed";
+	font-size: 12vw;
+}
+p#lastname{
+	margin: 4% 0 0 0;
+	line-height: 1em;
+	font-family: "BlairMdITC TT";
+	font-size: 5.5vw;
+}
+p#course{
+	margin: 0 0 0 0;
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 1.3vw;
+	text-align: right;
+}
+.contact{
+	width: 20%;
+	margin: 45% 0 0 6%;
+	padding-bottom: 3%;
+}
+.contactIcon{
+	width: 8%;
+	height: 8%;
+}
+.contactInfo{
+	margin: 0 0 0 0;
+}
+.divcontact {
+	align-items: center;
+	display: flex;
+}
+.divcontact a{
+	color: black;
+	margin-left: 1%;
+}
+.divcontact a:hover{
+	color: brown;
+	text-shadow: 4px 4px 10px #000000;
+}
+.divcontact p{
+	font: 1vw Futura;
+	margin-left: 4%;
+}
+.divcontact:hover {
+	color: brown;
+	text-shadow: 4px 4px 10px #000000;
+}
+.about{
+	color: white;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	box-sizing: border-box;
+	padding-top: 0.1%;
+}
+h1{
+	text-align: center;
+	font-family: LuloCleanW01-OneBold;
+	font-size: 3vw;
+	margin: 0.8% 0 0.8% 0;
+	box-sizing: border-box;
+}
+.quote{
+	width: 40%;
+	font: 1.4vw Courier;
+	text-align: right;
+	padding: 3% 1.5% 0 5.2%;
+	box-sizing: border-box;
+}
+.info{
+	width: 60%;
+	font: 1.5vw "Gill sans";
+	padding: 0 5.2% 0 1.5%;
+	margin: 0.5% 0 2% 0;
+	box-sizing: border-box;
+	border-left: white solid;
+}
+.aboutcolumn{
+	display: flex;
+}
+.main{
+	width: 100%;
+	height: 100%
+	color: black;
+	padding: 0 5% 5% 5%;
+	box-sizing: border-box;
+}
+.left{
+	float: left;
+	width: 35%;
+	height: 100%;
+	box-sizing: border-box;
+	margin: 3% 1% 3% 1%;
+}
+.skillCard{
+	background-color: white;
+	width: 100%;
+	padding-bottom: 2%;
+	margin: 0 0 5% 0;
+}
+.educationCard{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 2%;
+}
+.outsideBar{
+	width: 90%;
+	height: 10%;
+	margin: auto;
+	border-radius: 9vw;
+	background-color: rosybrown;
+	font: 1vw "Futura";
+	color: white;
+}
+#skillbarJava{
+	width: 86%;
+	height: 10%;
+	padding: 0 0 0 3.5%;	
+	background-color: darkred;
+	border-radius: 9vw;
+	box-sizing: border-box;
+}
+#skillbarEdit{
+	width: 70%;
+	height: 10%;
+	padding: 0 0 0 3.5%;
+	background-color: darkred;
+	border-radius: 9vw;
+	box-sizing: border-box;
+}
+#skillbarDesign{
+	width: 93%;
+	height: 10%;
+	padding: 0 0 0 3.5%;
+	background-color: darkred;
+	border-radius: 9vw;
+	box-sizing: border-box;
+}
+#skillbarCom{
+	width: 78%;
+	height: 10%;
+	padding: 0 0 0 3.5%;
+	background-color: darkred;
+	border-radius: 9vw;
+	box-sizing: border-box;
+}
+.skillName{
+	font: 1.2vw futura;
+	text-align: center;
+	margin: 0 0 3% 0;
+}
+.left h4{
+	font: 1.2vw "LuloCleanW01-OneBold";
+	margin: 0 0 0 8%;
+}
+.schoolName{
+	font: 1.2vw futura;
+	margin: 0 0 2.25% 15%;
+	box-sizing: border-box;
+}
+.right{
+	float: left;
+	width: 60%;
+	height: 100%;
+	margin: 3% 0 1% 1%;
+	box-sizing: border-box;
+}
+.card{
+	height: 95%;
+	margin: 0 0 3% 0;
+	background-color: white;
+	display: flex;
+}
+.cardHeading{
+	font: 3.5vw "DIN condensed";
+	text-align: left;
+	margin: 0 0 0 2.5%;
+	padding-top: 2%;
+}
+.leftCard{
+	width: 71.5%;
+}
+.accentCard{
+	width: 30%;
+	height: 100%;
+}
+.accentImage{
+	width: 28.5%;
+	height: 100%;
+	margin: 0 0 0 0;
+}
+.list{
+	list-style-type: square;
+	font: 1.65vw futura;
+	margin: 1% 0 0 1.7%;
+}
+.leftpane{
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin-left: 6%;
+	background-color: white;
+	box-sizing: border-box;
+}
+#pane1{
+	width: 100%;
+	height: 100%;
+	margin: 0 0 7% 0;
+}
+#pane2{
+	font-family: "DIN condensed";
+	font-size: 3.5vw;
+	line-height: 0.5em;
+	margin: 2% 4% 2% 4%;
+}
+#pane3{
+	font: 1.2vw futura;
+	line-height: 1em;
+	margin: 0 4% 10% 4%;
+}
+#pane4{
+	font: 1vw futura;
+	text-align: justify;
+	margin: 0 6% 8% 6%;
+}
+#pane5{
+	font: 1vw courier;
+	text-align: right;
+	margin: 0 6% 10% 6%;
+}
+#pane6{
+	margin: 0 4% 4% 4%;
+}
+#ref{
+	float: right;
+	font: 0.8vw arial;
+	color: black;
+	opacity: 70%;
+	text-align: right;
+	margin: 0 4% 4% 0;
+}
+.rightpane{
+	float: left;
+	width: 66%;
+	margin-right: 6%;
+	box-sizing: border-box;
+}
+.galleryCards{
+	width: 100%;
+	margin: 0 0 3% 3%;
+	background-color: whitesmoke;
+	padding: 1% 3% 1% 3%;
+	box-sizing: border-box;
+}
+.photo{
+	width: 30%;
+	height: 30%;
+	margin: 1.2% 1.2% 1.2% 1.2%;
+}
+h2{
+	color: black;
+	font: 2vw "LuloCleanW01-OneBold";
+	margin: 0 0 0 2%;
+}
+div.footer{
+	width: 100%;
+	height: 10%;
+	padding: 0 4% 1% 4.5%;
+	background-color: black;
+	box-sizing: border-box;
+	color: white;
+	float: left;
+}
+.credit{
+	float: left;
+	font: 1.3vw futura;
+	text-align: right;
+	width: 65%;
+	box-sizing: border-box;
+}
+.footref{
+	float: right;
+	font: 0.8vw arial;
+	color: white;
+	opacity: 60%;
+	text-align: right;
+	margin-top: 0.5%;
+}
